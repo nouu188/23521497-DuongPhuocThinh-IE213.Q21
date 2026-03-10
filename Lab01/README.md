@@ -265,11 +265,3 @@ db.lab1.aggregate([
 ├── lab1/
 │   └── README.md         # Toàn bộ lệnh mongosh cho Lab 1
 ```
-
----
-
-### 📝 Ghi chú
-
-- Tên collection trong bài là **`lab1`** (thay cho `employees` theo yêu cầu thực tế).
-- Mọi lệnh được thực thi trong môi trường **`mongosh`**.
-- Database sẽ được tạo tự động khi chạy lệnh `use()` lần đầu tiên kèm theo thao tác ghi dữ liệu.
