@@ -60,11 +60,9 @@ npm install
 Chỉnh sửa tệp `.env` trong thư mục `backend`:
 
 ```env
-MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/sample_mflix?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://nouu188:1@cluster.mongodb.net
 PORT=3000
 ```
-
-> **Lưu ý:** Thay `<username>` và `<password>` bằng thông tin tài khoản MongoDB Atlas của bạn.
 
 #### Bước 3: Chạy máy chủ
 
@@ -377,10 +375,3 @@ Lab02/
 - [x] Tạo Controller xử lý logic nghiệp vụ
 - [x] Định tuyến API: `GET /api/v1/movies`
 - [x] Hỗ trợ phân trang và bộ lọc (title, rated)
-
-### ⏳ Những nội dung chưa hoàn thành / mở rộng
-
-- [ ] Thêm API tìm kiếm phim theo ID
-- [ ] Thêm API đánh giá phim (reviews)
-- [ ] Xác thực dữ liệu đầu vào (validation)
-- [ ] Xử lý lỗi chi tiết hơn (error handling middleware)
