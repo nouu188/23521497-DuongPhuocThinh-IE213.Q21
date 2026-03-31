@@ -61,7 +61,7 @@ npm install
 Chỉnh sửa tệp `.env` trong thư mục `backend`:
 
 ```env
-MONGODB_URI=mongodb+srv://nouu188:1@cluster.mongodb.net
+MONGODB_URI=mongodb+srv://nouu188:1@cluster0.1y8re.mongodb.net/?appName=Cluster0
 PORT=3000
 ```
 
